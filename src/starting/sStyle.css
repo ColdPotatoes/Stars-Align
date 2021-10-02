@@ -1,0 +1,124 @@
+* {
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1620646233562-f2a31ad24425?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c3RhcnMlMjBibGFja3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+}
+
+#h1 {
+    font-size: 2vw;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.tindr {
+    width: 9vw;
+    height: 2.7vw;
+    border: none;
+    background-color: #1F35FF;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 2vw;
+    font-size: 1.3vw;
+    transition: ease-out 0.3s;
+    position: relative;
+    z-index: 1;
+}
+
+.tindr:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.tindr:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #FF906C;
+    border-radius: 5px;
+}
+
+.tindr:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}
+
+.orbit {
+    width: 9vw;
+    height: 2.7vw;
+    border: none;
+    background-color: #1F35FF;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 2vw;
+    font-size: 1.3vw;
+    transition: ease-out 0.3s;
+    position: relative;
+    z-index: 1;
+}
+
+.orbit:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.orbit:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #FF906C;
+    border-radius: 5px;
+}
+
+.orbit:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}
+
+
+/* .button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #1F35FF;
+    color: #fff;
+    border: none;    
+    outline: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #FF906C;
+    color: #fff;
+    border: none;    
+    outline: none;
+    border-radius: 5px;
+} */
+
+
+

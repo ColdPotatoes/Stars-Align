@@ -1,0 +1,37 @@
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #1F35FF;
+    color: #fff;
+    border: none;    
+    outline: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #FF906C;
+    color: #fff;
+    border: none;    
+    outline: none;
+    border-radius: 5px;
+}
+
+body {
+    background-color: #000;
+}
+
+
+#h1 {
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+}
