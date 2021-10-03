@@ -1,44 +1,59 @@
-body{background-color: black;
-    /*overflow: hidden; /*hiding scroll bars*/
+* {
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+}
+body {
+    background-image: url("https://images.unsplash.com/photo-1620646233562-f2a31ad24425?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c3RhcnMlMjBibGFja3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    overflow: hidden;
 }
 
-img{
-    width: 40vw;;
-    height: 10%;
-    transform: translate(140%, 0%);
-    
+#pg1 {
+    display: flex;
+    align-items: center;
+}
+#astro-img{
+    width: 40vw;;  
     position: relative;
-    
+    display: inline-block;
+}
+#start{
+    display: none;
+    position: relative;
+    background-color: transparent;
+    border-radius: 2vw;
+    width: 10vw;
 }
 
 .text-box{
     display: inline-block;
     background-color: #008D8D;
-    position: absolute;
+    position: relative;
     text-align: left;
-    transform: translate(-80%, 60%);
     padding: 2vh 5vw;
-    border-radius: 15vh;
-    margin: 50px;
-    font-size: 40px;
+    border-radius: 15vw;
+    width: 20vw;
+    
+    margin-left: 20vw;
+    margin-top: 10vh;
     color: #fff;
 }
 
+.myP {
+    font-size: 1.3vw;
+}
 
 button {
-    display: inline-block;
     background-color: #008D8D;
-    
-    position: relative;
-    
-    transform: translate(1000%, -300%);
-    padding: 15px;
-    border-radius: 20px;
-    margin: 50px;
-    font-size: 20px;
+    margin-right: 0;
+    padding: .75vw;
+    position: absolute;
     border-color: transparent;
     border-style: solid;
     transition: .5s;
+    right:0;
+    bottom:0;
+    border-radius: 2vw;
+    font-size: 0.75vw;
 }
 button:hover{
     border-color: white;
