@@ -10,18 +10,25 @@ body {
 #pg1 {
     display: flex;
     align-items: center;
+    width: 100%;
+    height: 100%;
 }
 #astro-img{
     width: 40vw;;  
     position: relative;
     display: inline-block;
 }
+
 #start{
     display: none;
     position: relative;
     background-color: transparent;
     border-radius: 2vw;
-    width: 10vw;
+    width: 20vw;
+    height: 10vh;
+    text-align: center;
+    margin-left: 20vw;
+    border-radius: 15vw;
 }
 
 .text-box{
