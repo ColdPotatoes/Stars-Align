@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    /*overflow: hidden; /hiding scroll bars*/
+}
+
+img {
+    width: 40vw;;
+    height: 10%;
+    transform: translate(140%, 0%);
+    position: relative;
+
+}
+
+.text-box {
+    display: inline-block;
+    background-color: #008D8D;
+    position: absolute;
+    text-align: left;
+    transform: translate(-80%, 60%);
+    padding: 2vh 5vw;
+    border-radius: 15vh;
+    margin: 50px;
+    font-size: 40px;
+    color: #fff;
+}
+
+button {
+    display: inline-block;
+    background-color: #008D8D;
+    position: relative;
+    transform: translate(1000%, -300%);
+    padding: 15px;
+    border-radius: 20px;
+    margin: 50px;
+    font-size: 20px;
+    border-color: transparent;
+    border-style: solid;
+    transition: .5s;
+}
+
+button:hover {
+    border-color: white;
+}
+
+form {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
