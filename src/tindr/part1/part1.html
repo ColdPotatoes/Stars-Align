@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="part1.css">
+
+    <title>
+        stars align - 1
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="date-picker">
+        <div class="selected-date"></div>
+
+        <div class="dates">
+            <div class="month">
+                <div class="arrows prev-mth">&lt;</div>
+                <div class="mth"></div>
+                <div class="arrows next-mth">&gt;</div>
+            </div>
+
+            <div class="days"></div>
+        </div>
+    </div>
+
+    <div id="pg1" class="lol">
+
+        <div class="main">
+            <div class="text-box">
+                <p class="myP" id="words">hey! i'm a lost astronaut in<br> space looking to find *that* special one,<br> help me out?</p>
+
+                <button id="next-button" onclick="transforming()">next</button>
+            </div>
+            <!-- <input type="date" id="start" name="trip-start" value="2021-10-02"> -->
+        </div>
+        <img id="astro-img" src="../images/astro.png">
+
+
+
+        <div id="forming">
+            <form onsubmit="return false;">
+                <input id="address-form" type="text" value="" /><br>
+                <!-- <input id="address-submit" type="submit" onclick="saveAddress();"/> -->
+            </form>
+        </div>
+        <!-- das wat i thought poopie head -->
+        <!-- <div id="twoButtons">
+                            <button>collision!</button>
+                        </div> -->
+    </div>
+    <script src="part1.js"></script>
+    <script src="./calendar/calendar.js"></script>
+</body>
+
+</html>
+
+<!-- let formm = document.getElementsByClassName("forming");
+        formm.style.display = "block"; -->

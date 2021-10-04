@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.forming {
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20vw;
+    padding: 2vw;
+    background-color: #D2FFFF;
+    border-radius: 2vw;
+}
+
+input[type=text] {
+    text-align: center;
+    padding: .2vw;
+    margin: .3vw;
+    border: 0;
+    border-bottom: transparent;
+}
+
+input[type=text]:active {
+    border-bottom: .5vw solid #008D8D;
+}
+
+input[type=text]:hover {
+    border-bottom: .5vw solid #008D8D;
+    transition: .5s;
+}

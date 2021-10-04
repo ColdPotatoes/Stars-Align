@@ -1,0 +1,77 @@
+* {
+    color: #FFBFAB;
+    font-family: 'Manrope', sans-serif;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1620646233562-f2a31ad24425?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c3RhcnMlMjBibGFja3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+}
+
+#info {
+    display: flex;
+    align-items: center;
+}
+
+#h1 {
+    vertical-align: middle;
+    text-align: center;
+    padding-bottom: 2.7vh;
+    padding-top: 1vh;
+    font-size: 2.5vw;
+}
+
+.container {
+    position: relative;
+    width: 15vw;
+    height: 8vh;
+    border-radius: 150px;
+    background-color: #008d8dad;
+    margin-top: 15vh;
+    margin-left: 50vw;
+}
+
+.container2 {
+    position: relative;
+    width: 30vw;
+    height: 25vh;
+    border-radius: 50px;
+    background-color: #008d8dad;
+    margin-top: 5vh;
+    margin-left: 50vw;
+    /*padding for the background*/
+    padding-top: .5vh;
+    /*padding b/w background box and info*/
+    padding-bottom: 2vh;
+    padding-left: 2vw;
+}
+
+.txtContainer {
+    position: relative;
+    width: 13vw;
+    height: 4vh;
+    border-radius: 3vw;
+    background-color: #349c9cad;
+    background-position: center;
+    color: #fff;
+    margin-top: 3vh;
+    margin-left: .5vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 1vw;
+    /*padding text within box*/
+    padding-right: 1vw;
+    font-size: 1.5vw;
+}
+
+.containing {
+    position: relative;
+    border-radius: 2vw;
+    background-color: #349c9cad;
+    color: #fff;
+    margin-top: 20vh;
+    margin-left: 65vw;
+    margin-right: 18vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 2vw;
+}

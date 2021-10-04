@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--cesium + satellite js stuff-->
+    <script src="https://cesium.com/downloads/cesiumjs/releases/1.81/Build/Cesium/Cesium.js"></script>
+    <link href="https://cesium.com/downloads/cesiumjs/releases/1.81/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/satellite.js/4.0.0/satellite.js"></script>
+
+    <link rel="stylesheet" href="part2.css">
+
+    <title>
+        space tinder - 2
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <script src="part2.js"></script>
+    <script src="viewer.js"></script>
+    <div id="cesiumContainer" class="fullSize">
+        <div class="panel" id="right-panel">
+
+        </div>
+    </div>
+    <div id="pg1">
+        <div id="main">
+            <img id="astro-img" src="../images/astro.png">
+            <div class="text-box">
+                <p class="myP" id="words">i’d love to find a partner whose orbit collides with mine.</p>
+                <div id="next">
+                    <button onclick="transforming()">next</button>
+                </div>
+            </div>
+            <button id="submit" 
+            onclick="submit()"
+            display: none
+            >Submit</button>
+        </div>
+        <!-- <div class="forming">
+            <form onsubmit="return false;">
+                <input id="address-form" type="text" />
+                <input id="address-submit" type="submit" onclick="saveAddress();" />
+            </form>
+        </div> -->
+        <!-- das wat i thought poopie head -->
+        <!-- <div id="twoButtons">
+            <button>collision!</button>
+        </div> -->
+    </div>
+
+
+</body>
+
+</html>

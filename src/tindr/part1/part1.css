@@ -1,0 +1,207 @@
+* {
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1620646233562-f2a31ad24425?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c3RhcnMlMjBibGFja3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    overflow: hidden;
+}
+
+#pg1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#astro-img {
+    width: 40vw;
+    ;
+    position: relative;
+    display: inline-block;
+}
+
+#start {
+    display: none;
+    position: relative;
+    background-color: transparent;
+    border-radius: 2vw;
+    width: 20vw;
+    height: 10vh;
+    text-align: center;
+    margin-left: 20vw;
+    border-radius: 15vw;
+}
+
+.text-box {
+    display: inline-block;
+    background-color: #008D8D;
+    position: absolute;
+    right: 15vw;
+    top: 20vh;
+    text-align: left;
+    padding: 2vh 5vw;
+    border-radius: 15vw;
+    width: 20vw;
+    margin-left: 20vw;
+    margin-top: 5vh;
+    color: #fff;
+}
+
+.myP {
+    font-size: 2vw;
+}
+
+button {
+    background-color: #008D8D;
+    margin-right: 0;
+    padding: .75vw;
+    position: absolute;
+    border-color: transparent;
+    border-style: solid;
+    transition: .5s;
+    right: 0;
+    bottom: 0;
+    border-radius: 2vw;
+    font-size: 0.75vw;
+}
+
+button:hover {
+    border-color: white;
+}
+
+#forming {
+    width: 20vw;
+    box-sizing: border-box;
+    /* background-color: #D2FFFF; */
+    padding: 2vh;
+    padding-right: 2vw;
+    position: absolute;
+    right: 15vw;
+    bottom: 25vh;
+    display: none;
+    align-items: right;
+}
+
+#address-form {
+    width: 20vw;
+    height: 5vh;
+    color: #008D8D;
+    border: 0;
+    border-bottom: transparent;
+    margin-bottom: 2vh;
+    background-color: #FFF;
+    opacity: .2;
+    border-radius: 1vw;
+    font-weight: 1000;
+}
+
+#address-form:hover {
+    opacity: .8;
+}
+
+#address-submit {
+    width: 10vw;
+    height: 5vh;
+    color: #008D8D;
+    padding-top: 1vh;
+    padding-bottom: 1vw;
+    border: 0;
+    border-bottom: transparent;
+    background-color: #D2FFFF;
+    border-radius: 1vw;
+    font-weight: 600;
+    text-align: center;
+}
+
+#address-submit:hover {
+    background-color: #008D8D;
+    color: white;
+}
+
+.date-picker {
+    display: none;
+    position: absolute;
+    top: 50vh;
+    left: 60vw;
+    width: 100%;
+    max-width: 20vw;
+    height: 2vh;
+    background-color: #AEB6FF;
+    margin: 30px auto;
+    padding: 1vh;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    user-select: none;
+}
+
+.date-picker:hover {
+    background-color: #F3F3F3;
+}
+
+.date-picker .selected-date {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #313131;
+    font-size: 28px;
+}
+
+.date-picker .dates {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #AEB6FF;
+}
+
+.date-picker .dates.active {
+    display: block;
+}
+
+.date-picker .dates .month {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #AEB6FF;
+    color: black;
+}
+
+.date-picker .dates .month .arrows {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #313131;
+    font-size: 20px;
+}
+
+.date-picker .dates .month .arrows:hover {
+    background-color: #F3F3F3;
+}
+
+.date-picker .dates .month .arrows:active {
+    background-color: #298b6b;
+}
+
+.date-picker .dates .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    height: 200px;
+}
+
+.date-picker .dates .days .day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #313131;
+}
+
+.date-picker .dates .days .day.selected {
+    background-color: #00CA85;
+}
