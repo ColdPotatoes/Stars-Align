@@ -12,5 +12,5 @@ async function getCoords() {
         long: obj.results[0].geometry.location.lng
     }
 }
-
+//lol try again
 // const {lat, long} = await getCoords();
