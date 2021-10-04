@@ -13,6 +13,20 @@
 </head>
 
 <body>
+    <div class="date-picker">
+        <div class="selected-date"></div>
+
+        <div class="dates">
+            <div class="month">
+                <div class="arrows prev-mth">&lt;</div>
+                <div class="mth"></div>
+                <div class="arrows next-mth">&gt;</div>
+            </div>
+
+            <div class="days"></div>
+        </div>
+    </div>
+
     <div id="pg1">
 
         <img id="astro-img" src="../images/astro.png">
@@ -23,14 +37,12 @@
                     let’s meet up sometime! When are your friends and family able to meet? i'll tell you where i'll be.
                 </p>
             </div>
-
-            <div class="text-box">
-                
-                <button id="next-button" onclick="transforming()">next</button>
+            <div id="next">
+                <button onclick="transforming()">next</button>
             </div>
         </div>
     </div>
-
+    <script src="calendar.js"></script>
     <script src="part3.js"></script>
 </body>
 

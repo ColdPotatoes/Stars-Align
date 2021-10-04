@@ -96,6 +96,7 @@ async function loadViewer(satArr) {
     return viewer;
 }
 function showInfo(entity) {
+    console.log('showed entity doneee')
     if (entity) {
         let panel = document.getElementById("right-panel")
         let {name, id, objectType, period, inclination, eccentricity, meanMotion, semiMajorAxis} = entity
@@ -326,5 +327,5 @@ function submit(){
     if (selectedEntity != null){
         localStorage["entity"] = selectedEntity
     }
-    location.href = "../part3.1/part3.html"
+    location.href = "../ending/ending.html"
 }

@@ -30,3 +30,19 @@ function transforming() {
         document.getElementById("next").style.display = "none";
     }
 }
+
+function twoLineGenerator() {
+    birthday = localStorage["bday"]
+    console.log(birthday)
+    const year = birthday.substring(6, 10);
+    const month = birthday.substring(3, 5);
+    const day = birthday.substring(0, 2);
+    const twoLineSet = `1 000` + month * 3 + day + months[month - 1].substring(0, 1) + ` ` + month * 1000 + day + months[month - 1].substring(0, 1) + `   ` +
+        (year + month + day) * 79 / 9 + `  ` + month / 2205882.3529412 + `  00000-0  ` + year * 13 + `-4 ` + `0  ` + (day + month + year) * 4 + `\n` +
+        `2 000` + month * 3 + day + `  ` + day * 2 / 3 + ` ` + month * 82 / 23 + ` ` + year * 914 + ` ` + month * 219.352 + `  ` + day * 31.2314 +
+        ` ` + month * 5.2482;
+
+    console.log(twoLineSet);
+
+    return twoLineSet
+}
